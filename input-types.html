@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang='en'>
+<head><title>Input Types</title>
+</head>
+<body>
+<form>
+<table>
+	<tr><td>Input type=Checkbox</td><td>
+	<input checked type='Checkbox' name='IsCool' value='Yes'>Is Cool?
+	</td></tr>
+	<tr><td>Input type=Password</td><td><input type='Password' name='Password'></td></tr>
+	<tr><td>Input type=Radio</td>
+		<td>
+			<input type='radio' name='FavoriteColor' value='R'>Red
+			<input checked type='radio' name='FavoriteColor' value='G'>Green
+			<input type='radio' name='FavoriteColor' value='B'>Blue
+		</td>
+	</tr>
+	<tr><td>Select</td>
+		<td>
+			<select name='state'>
+				<option value='OH'>Ohio</option>
+				<option value='IN'>Indiana</option>
+				<option selected='true' value='KY'>Kentucky</option>
+			</select>
+		</td>
+	</tr>
+	<tr><td>Textarea</td>
+		<td><textarea name='description' rows="5"></textarea>
+		</td></tr>
+</table>
+	<p><input type='date'></p>
+<button type='submit'>Submit</button>
+</form>
+</body>
+</html>
